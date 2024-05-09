@@ -8,7 +8,7 @@ const Programs = () => {
         <div className="Programs" id="programs">
             {/* header */}
             <div className="programs-header">
-                <span className='stroke-text'>Explore our</span>
+                <span className='stroke-text'>Explore ours</span>
                 <span>Progrmas</span>
                 <span className='stroke-text'>To shape you</span>
             </div>
