@@ -21,9 +21,10 @@ const Footer = () => {
                     <img src={logo} alt="" />
                 </div>
             </div>
-
+            <div className="blur blur-f1"></div>
+            <div className="blur blur-f2"></div>
         </div>
-    )
+    );
 }
 
 export default Footer;

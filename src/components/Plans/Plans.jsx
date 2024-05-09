@@ -6,6 +6,8 @@ import whiteTick from '../../assets/whiteTick.png';
 const Plans = () => {
     return (
         <div className='plans-container'>
+            <biv className="blur blur-p1"></biv>
+            <biv className="blur blur-p2"></biv>
             {/* header */}
             <div className="plans-header" style={{ gap: '2rem' }}>
                 <span className='stroke-text'>READY TO START</span>
