@@ -1,7 +1,7 @@
-.Join {
+.join {
     display: flex;
-    padding: 0 2rem;
     gap: 10rem;
+    padding: 0 2rem;
 }
 
 .left-j {
@@ -28,13 +28,12 @@
 
 .right-j {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .email-container {
     display: flex;
-    position: absolute;
     justify-content: center;
     gap: 3rem;
     background-color: gray;
