@@ -56,3 +56,14 @@
     color: white;
 }
 
+@media only screen and (max-width: 768px) {
+    .join{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-j>hr {
+        display: none;
+    }
+    
+}
+

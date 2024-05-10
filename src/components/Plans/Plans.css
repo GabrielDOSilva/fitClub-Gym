@@ -99,3 +99,17 @@
 .plans>:nth-child(2)>button {
     color: orange;
 }
+
+@media only screen and (max-width: 768px) {
+    .plans-container {
+        margin-top: 1rem;
+        
+    }
+    .plans-header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .plans{
+        flex-direction: column;
+    }
+}

@@ -20,14 +20,17 @@ const Join = () => {
         <div className="join" id="join-us">
             <div className="left-j">
                 <hr />
+
                 <div>
                     <span className='stroke-text'>READY TO</span>
                     <span>LEVEL UP</span>
                 </div>
+
                 <div>
-                    <span>YOUR</span>
+                    <span>YOUR BODY</span>
                     <span className='stroke-text'>WITH US?</span>
                 </div>
+        
             </div>
             <div className="right-j">
                 <form ref={form} class="email-container" onSubmit={sendEmail}>

@@ -23,11 +23,28 @@ const Testimonials = () => {
                     </span> {" "}
                     - {testimonialsData[selected].status}
                 </span>
+                <div className="arrows-l">
+                    <img
+                        onClick={() => {
+                            selected === 0
+                                ? setSelected(tLengh - 1)
+                                : setSelected((prev) => prev - 1);
+                        }}
+
+                        src={LeftArrow} alt="" />
+                    <img
+                        onClick={() => {
+                            selected === tLengh - 1
+                                ? setSelected(0)
+                                : setSelected((review) => review + 1);
+                        }}
+                        src={RightArrow} alt="" />
+                </div>
             </div>
             <div className="right-t">
                 <div></div>
                 <div></div>
-                <img src={testimonialsData[selected].image} alt="" />
+                <img src={testimonialsData[selected].image} alt="" className='img-t'/>
                 <div className="arrows">
                     <img
                         onClick={() => {

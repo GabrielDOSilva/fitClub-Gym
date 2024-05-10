@@ -111,7 +111,7 @@
   border: 2px solid var(--orange);
 }
 
-.right-h>.btn{
+.right-h>.btn {
   position: absolute;
   right: 3rem;
   top: 2rem;
@@ -182,12 +182,12 @@
   justify-content: space-between;
 }
 
-.calories>div>:nth-child(1){
+.calories>div>:nth-child(1) {
   color: var(--gray);
   font-size: 1.5rem;
 }
 
-.calories>div>:nth-child(2){
+.calories>div>:nth-child(2) {
   color: white;
   font-size: 1.5rem;
 }
@@ -198,5 +198,34 @@
   left: 0;
 }
 
+/* Adicionando regras de mídia para responsividade */
 
+@media only screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
 
+  .left-h {
+    flex: none;
+    width: 100%;
+  }
+
+  .hero-image,
+  .hero-image-back,
+  .heart-rate,
+  .calories,
+  .right-h {
+    display: none;
+  }
+  .hero-text {
+    text-align: center;
+    align-items: center;
+  }
+  .figures {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

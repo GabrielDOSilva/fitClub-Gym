@@ -59,19 +59,52 @@
     position: absolute;
     width: 17rem;
     height: 19rem;
-    right: 7rem; 
+    right: 7rem;
     top: 4rem;
     background: var(--planCard);
+}
+.arrows-l {
+    display: none;
 }
 
 .arrows {
     display: flex;
-    gap: 1rem;position: absolute;
+    gap: 1rem;
+    position: absolute;
     bottom: 1rem;
     left: 3rem;
 }
 
-.arrows>img{
+.arrows>img {
     width: 1.5rem;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .left-t {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .right-t {
+        display: none;
+    }
+
+    .arrows-l {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        bottom: 1rem;
+        left: 3rem;
+    }
+    
+    .arrows-l>img {
+        width: 1.5rem;
+        cursor: pointer;
+    }
+    
+
 }

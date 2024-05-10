@@ -1,6 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Adicionando para centralizar verticalmente */
+    padding: 1rem; /* Adicionando espaçamento interno */
 }
 
 .logo {
@@ -19,4 +21,22 @@
     cursor: pointer;
     color: var(--orange);
     cursor: pointer;
+}
+
+/* Adicionando regras de mídia para responsividade */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 1rem; /* Adicionando espaçamento inferior */
+    }
+
+    .header-menu {
+        padding: 1rem;
+        gap: 1rem; /* Reduzindo o espaçamento entre os itens do menu */
+    }
+    
 }
