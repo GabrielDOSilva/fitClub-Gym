@@ -58,12 +58,25 @@
 
 @media only screen and (max-width: 768px) {
     .join{
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .left-j>hr {
-        display: none;
+    .left-j>div{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
     }
+
+    .left-j>hr {
+        width: 100%;
+        border: 2px solid var(--orange);
+        border-radius: 20%;
+        margin: -10px 0;
+    }
+
+
+
     
 }
 
