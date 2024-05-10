@@ -29,7 +29,7 @@ const Hero = () => {
                         <span>Your</span>
                     </div>
                     <div>
-                        <span>Ideal Boddy</span>
+                        <span>Ideal Body</span>
                     </div>
                     <div>
                         <span>In here we will help you to shape and build your ideal body and live up ypur life to fullest</span>
